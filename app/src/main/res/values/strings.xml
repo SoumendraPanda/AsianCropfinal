@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AsianCrop</string>
+    <string name="open">AsianCrop</string>
+    <string name="close">AsianCrop</string>
+    <string-array name="travel">
+        <item>SELECT</item>
+        <item>BUS/TRAIN</item>
+        <item>SELF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asian Care Crop"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="45sp"/>
+
+    <ImageView
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_map_of_roads"
+            android:id="@+id/expense"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_online_shop"
+        android:id="@+id/order"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/gradient">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:hint="Enter Date"
+        android:id="@+id/date"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="10dp"
+        android:hint="Enter Time"
+        android:id="@+id/t1"
+        android:inputType="time"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/trip1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Place Visited"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/dt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Distance Travelled(kms)"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+
+    <EditText
+        android:id="@+id/te1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Total Expenses"
+        android:inputType="number"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/bu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:hint="Bills Upload" />
+
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.15"
+            android:src="@drawable/ic_attach_file_black_24dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/squarebutton"
+        android:padding="3dp"
+        android:text="Save"
+        android:textColor="#D32F2F"
+        android:textSize="27sp" />
+
+</LinearLayout>
